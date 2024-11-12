@@ -6,4 +6,4 @@ Basic Arithmetic: Addition, Subtraction, Multiplication, Division
 # Output
 
 
-![Screenshot 2024-11-12 104216](https://github.com/user-attachments/assets/dea47c33-b52e-4286-8d24-262fda739d66)
+![Screenshot 2024-11-12 104216](https://github.com/user-attachments/assets/29e89bbf-0739-4901-a86c-b164b62565de)
