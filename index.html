@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+      <form action="">
+        <p>CASIO</p> 
+       <input type="text" id="screen">
+       <br>
+       <input class="button number" type="button" value="7" onclick="btnClick(value)">
+       <input class="button number" type="button" value="8"onclick="btnClick(value)">
+       <input class="button number" type="button" value="9"onclick="btnClick(value)">
+       <input class="button operator" type="button" value="/"onclick="btnClick(value)">
+       <br>
+       <input class="button number" type="button" value="4"value="/"onclick="btnClick(value)">
+       <input class="button number" type="button" value="5"value="/"onclick="btnClick(value)">
+       <input class="button number" type="button" value="6"value="/"onclick="btnClick(value)">
+       <input class="button operator" type="button" value="*"value="/"onclick="btnClick(value)">
+        <br>
+       <input class="button number" type="button" value="1"value="/"onclick="btnClick(value)">
+       <input class="button number" type="button" value="2"value="/"onclick="btnClick(value)">
+       <input class="button number" type="button" value="3"value="/"onclick="btnClick(value)">
+       <input class="button operator" type="button" value="+"value="/"onclick="btnClick(value)">
+       <br>
+
+       <input class="button clear" type="button" value="C" onclick="clearScreen()">
+       <input class="button number" type="button" value="0"value="/"onclick="btnClick(value)">
+       <input class="button result" type="button" value="=" onclick="findResult()">
+       <input class="button operator" type="button" value="-"value="/"onclick="btnClick(value)">
+
+
+
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
